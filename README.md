@@ -79,7 +79,7 @@ Yes. By design it encourages separation first, but it doesn't make it hard to co
 ```ts
 const addressFormResponse = {
   loading: addressFetchResult.kind === "loading" ? addressFetchResult : null,
-  dataddressFetchResult.kind === "data" ? addressFetchResult : null,
+  data: addressFetchResult.kind === "data" ? addressFetchResult : null,
 };
 ```
 
